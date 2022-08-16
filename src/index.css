@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply border-2 cursor-pointer flex justify-center items-center text-3xl;
+}
+.shadowAdd {
+  box-shadow: 3px 3px 5px rgb(138, 136, 136), -15px -15px 30px #fdfdfd;
+}
